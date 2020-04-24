@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView container = findViewById(R.id.container);
 
+
         container.setItemViewCacheSize(20);
         container.setDrawingCacheEnabled(true);
         container.setHasFixedSize(true);
