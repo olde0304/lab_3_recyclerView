@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         imageList.add(new Source("Image 2", R.drawable.imagen2));
         imageList.add(new Source("Image 3", R.drawable.imagen3));
         imageList.add(new Source("Image 4", R.drawable.imagen4));
-        imageList.add(new Source("Image 5", R.drawable.imagen5));
+       
 
         RecyclerView container = findViewById(R.id.container);
 
